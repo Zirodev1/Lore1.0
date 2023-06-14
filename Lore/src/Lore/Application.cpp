@@ -1,19 +1,26 @@
+#include "lrpch.h"
+
 #include "Application.h"
 
-namespace Lore {
+#include "Lore/Events/ApplicationEvent.h"
+#include "Lore/Log.h"
 
+namespace Lore
+{
 	Application::Application()
 	{
-
+		m_Window = std::unique_ptr<Window>(Window::Create());
 	}
 
 	Application::~Application()
 	{
-
 	}
 
 	void Application::Run()
 	{
-		while (true);
+		while(m_Running)
+		{
+			m_Window->OnUpdate();
+		}
 	}
 }

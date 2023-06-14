@@ -6,7 +6,8 @@ extern Lore::Application* Lore::CreateApplication();
 
 int main(int argc, char** argv)
 {
-	printf("Lore Engine\n");
+	Lore::Log::Init();
+
 	auto app = Lore::CreateApplication();
 	app->Run();
 	delete app;
