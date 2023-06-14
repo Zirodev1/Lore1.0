@@ -5,12 +5,10 @@ class Sandbox : public Lore::Application
 public:
 	Sandbox()
 	{
-
 	}
 
 	~Sandbox()
 	{
-
 	}
 };
 
