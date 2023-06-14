@@ -1,0 +1,7 @@
+﻿  Application.cpp
+Z:\dev\Lore\Lore\src\Lore\Application.h(16,27): warning C4251: 'Lore::Application::m_Window': class 'std::unique_ptr<Lore::Window,std::default_delete<Lore::Window>>' needs to have dll-interface to be used by clients of class 'Lore::Application'
+Z:\dev\Lore\Lore\src\Lore\Application.h(16,8): message : see declaration of 'std::unique_ptr<Lore::Window,std::default_delete<Lore::Window>>'
+  Log.cpp
+  Generating Code...
+     Creating library ..\bin\Release-windows-x86_64\Lore\Lore.lib and object ..\bin\Release-windows-x86_64\Lore\Lore.exp
+  Lore.vcxproj -> Z:\dev\Lore\bin\Release-windows-x86_64\Lore\Lore.dll
